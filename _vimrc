@@ -306,6 +306,7 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
+set t_Co=256
 
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
 cmap pp set paste
