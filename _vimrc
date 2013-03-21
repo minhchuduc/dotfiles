@@ -307,6 +307,6 @@ endif
 
 set colorcolumn=79
 
-set rtp+=_vim/bundle/powerline/powerline/bindings/vim/
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
 cmap pp set paste
 cmap p! set paste!
