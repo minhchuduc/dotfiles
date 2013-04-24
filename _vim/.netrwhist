@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/minhcd/old_Desktop/My_Python/SMS_brandname'
 let g:netrw_dirhist_2='/home/minhcd/repos/vpnwebpy/vpnwebpy'
 let g:netrw_dirhist_3='/home/minhcd/Documents/TestVCCorp/TestVCCorp/Test2'
+=======
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/vagrant/.byobu'
+>>>>>>> 744bc0a8568b8974f0f68008915d8e5d4f6d090d
