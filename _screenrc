@@ -37,3 +37,10 @@ startup_message off
 
 # Set messages timeout to one second:
 msgwait 1
+
+#screen -t ROOT  0
+#screen -t rvm   1
+#screen -t Pry   2   pry 
+#screen -t Rails_projs 3
+#screen -t /tmp  4
+#screen -t htop  5

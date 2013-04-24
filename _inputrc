@@ -1,4 +1,4 @@
-set editing-mode vi
+#set editing-mode vi
 
 # Adds punctuation as word delimiters
 set bind-tty-special-chars off
@@ -34,4 +34,12 @@ $endif
 
 # IPython needs this to appear at the bottom of the
 # file for clear-screen to work
-set keymap vi
+#set keymap vi
+
+set show-all-if-ambiguous on                                                                                                          
+set completion-ignore-case on                                                                                                         
+"\e[A":history-search-backward                                                                                                        
+"\e[B":history-search-forward                                                                                                         
+$if Bash                                                                                                                              
+    Space: magic-space                                                                                                              
+$endif              
