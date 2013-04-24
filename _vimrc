@@ -309,16 +309,11 @@ set colorcolumn=79
 set t_Co=256
 
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
-<<<<<<< HEAD
-cmap pp set paste
-cmap p! set paste!
-=======
 
 set pastetoggle=<F12>
 
 command Pyrun execute "!python %"
 command Intpyrun execute "!python -i %"
->>>>>>> 744bc0a8568b8974f0f68008915d8e5d4f6d090d
 
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
