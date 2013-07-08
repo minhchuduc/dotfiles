@@ -186,6 +186,6 @@ man() {
                         man "$@"
 }
 
-
+function mtail() { tail -f $1 | ccze; }
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
